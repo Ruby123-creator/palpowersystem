@@ -1,10 +1,9 @@
 import React from 'react';
-import chetu from '../images/clients/Chetu.png'
 import cynet from '../images/clients/cynet.png'
 import haldiram from '../images/clients/haldiram.png'
-
+import titan from '../images/clients/titan.png'
 const clientImage = {
-    height: '5rem',
+    height: '4rem',
     width: 'auto',
     mixBlendMode: 'colorBurn'
 }
@@ -24,7 +23,7 @@ const Clients = () => {
                 <div className="p-16" data-aos="fade-in" data-aos-delay="600">
                     <div className="grid sm:grid-cols-3 lg:grid-cols-3">
                         <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out  hover:opacity-50 w-1/6">
-                            <img src={chetu} alt="client" />                           
+                            <img src={titan} alt="client" />                           
                         </div>
 
                         <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out hover:opacity-50">
